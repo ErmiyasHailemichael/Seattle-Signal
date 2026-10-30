@@ -1,0 +1,96 @@
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.15);
+  padding: 16px 20px calc(16px + env(safe-area-inset-bottom, 0px));
+  max-height: 70vh;
+  overflow-y: auto;
+  animation: slideUp 0.25s ease-out;
+  z-index: 10;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.closeButton {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #666;
+  padding: 4px 8px;
+}
+
+.photo {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.photoPlaceholder {
+  width: 100%;
+  height: 160px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 13px;
+}
+
+.name {
+  margin: 0 0 4px;
+  font-size: 20px;
+  padding-right: 32px;
+}
+
+.address {
+  font-size: 13px;
+  color: #555;
+  margin: 0 0 12px;
+}
+
+.description {
+  font-size: 15px;
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+
+.localTip {
+  font-size: 14px;
+  font-style: italic;
+  margin: 0 0 12px;
+  background: #fff8e1;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.practicalInfo {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.directionsLink {
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #1a73e8;
+  font-weight: 600;
+  text-decoration: none;
+}
