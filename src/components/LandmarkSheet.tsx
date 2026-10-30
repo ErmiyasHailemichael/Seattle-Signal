@@ -32,6 +32,14 @@ export default function LandmarkSheet({ landmark, onClose }: Props) {
 
       <h2 className={styles.name}>{landmark.name}</h2>
       <p className={styles.address}>{landmark.address}</p>
+      <a
+        href={`https://www.google.com/maps/dir/?api=1&destination=${landmark.coordinates.lat},${landmark.coordinates.lng}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.directionsLink}
+      >
+        Get Directions →
+      </a>
       <p className={styles.description}>{landmark.description}</p>
 
       {landmark.localTip && <p className={styles.localTip}>💡 {landmark.localTip}</p>}
