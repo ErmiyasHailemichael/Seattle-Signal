@@ -2,8 +2,14 @@ import postgres from 'postgres';
 
 const sql = postgres(process.env.DATABASE_URL!);
 
+type UptimeStats = {
+  uptime_percent: number | null;
+  total_checks: number;
+  avg_latency_ms: number | null;
+};
+
 export async function getUptimeStats(hours: number) {
-  const [row] = await sql`
+  const [row] = await sql<UptimeStats[]>`
     select
       round(100.0 * sum(case when success then 1 else 0 end) / count(*), 2) as uptime_percent,
       count(*) as total_checks,
@@ -14,8 +20,14 @@ export async function getUptimeStats(hours: number) {
   return row;
 }
 
+type LatestCheck = {
+  success: boolean;
+  checked_at: string;
+  latency_ms: number | null;
+};
+
 export async function getLatestCheck() {
-  const [row] = await sql`
+  const [row] = await sql<LatestCheck[]>`
     select success, checked_at, latency_ms
     from health_checks
     order by checked_at desc

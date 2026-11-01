@@ -1,6 +1,6 @@
 import { getUptimeStats, getLatestCheck } from '@/lib/db';
 
-
+export const instant = false;
 const SLO_TARGET_UPTIME = 99.5;
 
 export default async function StatusPage() {
