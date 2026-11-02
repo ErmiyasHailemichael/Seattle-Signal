@@ -96,7 +96,25 @@ export default function Home() {
           </Marker>
         ))}
       </Map>
-
+      <a
+  href="/status"
+  style={{
+    position: 'fixed',
+    bottom: 16,
+    left: 16,
+    zIndex: 20,
+    background: 'white',
+    borderRadius: '20px',
+    padding: '8px 14px',
+    fontSize: '13px',
+    fontWeight: 600,
+    color: '#333',
+    textDecoration: 'none',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
+  }}
+>
+  🟢 Status
+</a>
       <button
         onClick={handleNearMe}
         style={{

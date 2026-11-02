@@ -18,3 +18,5 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run build
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
