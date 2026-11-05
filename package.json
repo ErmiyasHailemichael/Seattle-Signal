@@ -14,12 +14,14 @@
     "postgres": "^4.0.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "react-map-gl": "^8.1.3"
+    "react-map-gl": "^8.1.3",
+    "supercluster": "^9.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/supercluster": "^7.1.3",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "typescript": "^5"
