@@ -46,4 +46,76 @@ export const landmarks: Landmark[] = [
     localTip: 'Free, and arguably the single best skyline photo spot in the city — go near sunset.',
     practicalInfo: 'Open 6am–10pm. Free. Street parking nearby can be tight on weekends.',
   },
+    {
+    id: 'pike-place-market',
+    name: 'Pike Place Market',
+    category: 'landmark',
+    coordinates: { lat: 47.6094076, lng: -122.34183580000001 },
+    address: '85 Pike St, Seattle, WA 98101, USA',
+    description:
+      "Landmark daily market with famed fish-throwing seafood vendors, produce stalls & other shops.",
+  },
+  {
+    id: 'fremont-troll',
+    name: 'Fremont Troll',
+    category: 'landmark',
+    coordinates: { lat: 47.6510628, lng: -122.34749880000001 },
+    address: 'North 36th Street, Troll Ave N, Seattle, WA 98103, USA',
+    description:
+      "Troll Under the Bridge is an interactive, 6.5-ton, mixed media statue made in 1990 by local artists.",
+  },
+  {
+    id: 'fremont-rocket',
+    name: 'The Fremont Rocket',
+    category: 'landmark',
+    coordinates: { lat: 47.6505556, lng: -122.35111110000001 },
+    address: '3420 Evanston Ave N, Seattle, WA 98103, USA',
+    description:
+      "Eccentric, 53-foot neighborhood landmark, constructed from a Cold War–era rocket.",
+  },
+  {
+    id: 'center-of-the-universe-signpost',
+    name: 'Center of the Universe Signpost',
+    category: 'landmark',
+    coordinates: { lat: 47.650500799999996, lng: -122.3500757 },
+    address: '3427 Fremont Pl N, Seattle, WA 98103, USA',
+    description:
+      "A signpost in Fremont's traffic triangle marking the neighborhood's tongue-in-cheek claim to being the \"Center of the Universe\" — a joke that started among Fremont's artists and residents and stuck. Arrows point to nearby landmarks like the Troll and the Rocket, plus a few cosmic ones: the Milky Way, Atlantis, the North Pole.",
+  },
+  {
+    id: 'wallingford-ladybug',
+    name: 'The Wallingford Ladybug',
+    category: 'landmark',
+    coordinates: { lat: 47.664259099999995, lng: -122.33515799999999 },
+    address: '4820 Burke Ave N, Seattle, WA 98103, USA',
+    description:
+      "A ladybug painted across a residential street intersection in Wallingford, one of several neighborhood street murals in the area. Neighbors hold a painting party every so often to refresh the colors.",
+  },
+  {
+    id: 'gas-works-park',
+    name: 'Gas Works Park',
+    category: 'park',
+    coordinates: { lat: 47.6456308, lng: -122.33435320000001 },
+    address: '2101 N Northlake Way, Seattle, WA 98103, USA',
+    description:
+      "Former site of an oil plant is now a 20-acre park with picnic facilities & dramatic city views.",
+  },
+  {
+    id: 'pioneer-square',
+    name: 'Pioneer Square',
+    category: 'historic',
+    coordinates: { lat: 47.6020338, lng: -122.33388599999999 },
+    address: '100 Yesler Wy, Seattle, WA 98104, USA',
+    description:
+      "Small, historic park with turn-of-the-century streetlamps, a totem pole & a bust of Chief Seattle.",
+  },
+  {
+    id: 'ballard-locks',
+    name: 'Ballard (Hiram M. Chittenden) Locks',
+    category: 'landmark',
+    coordinates: { lat: 47.665504299999995, lng: -122.39718379999998 },
+    address: '3015 NW 54th St, Seattle, WA 98107, USA',
+    description:
+      "Waterway with opportunities for viewing salmon during the summer & park with unusual shrubs & trees.",
+  },
 ];
