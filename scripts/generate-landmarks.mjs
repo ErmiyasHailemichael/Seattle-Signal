@@ -2,14 +2,18 @@ const apiKey = process.env.GOOGLE_PLACES_API_KEY;
 
 // Edit this list: id (slug, used in URLs/keys), query (what to search), category
 const entries = [
-  { id: 'pike-place-market', query: 'Pike Place Market', category: 'landmark' },
-  { id: 'fremont-troll', query: 'Fremont Troll, Seattle', category: 'landmark' },
-  { id: 'fremont-rocket', query: 'Fremont Rocket, Seattle', category: 'landmark' },
-  { id: 'center-of-the-universe-signpost', query: 'Center of the Universe Signpost, Fremont, Seattle', category: 'landmark' },
-  { id: 'wallingford-ladybug', query: 'Wallingford Ladybug, Seattle', category: 'landmark' },
-  { id: 'gas-works-park', query: 'Gas Works Park, Seattle', category: 'park' },
-  { id: 'pioneer-square', query: 'Pioneer Square Park, Seattle', category: 'historic' },
-  { id: 'ballard-locks', query: 'Ballard Locks, Seattle', category: 'landmark' },
+  { id: 'woodland-park-zoo', query: 'Woodland Park Zoo, Seattle', category: 'landmark' },
+  { id: 'waiting-for-the-interurban', query: 'Waiting for the Interurban, Fremont, Seattle', category: 'landmark' },
+  { id: 'hat-n-boots', query: "Hat n' Boots, Georgetown, Seattle", category: 'landmark' },
+  { id: 'kurt-cobain-bench', query: 'Kurt Cobain Memorial Bench, Viretta Park, Seattle', category: 'landmark' },
+  { id: 'jimi-hendrix-statue', query: 'Jimi Hendrix Statue, Seattle', category: 'landmark' },
+  { id: 'dicks-drive-in', query: "Dick's Drive-In, 111 NE 45th St, Seattle", category: 'food' },
+  { id: 'hing-hay-park', query: 'Hing Hay Park, Seattle', category: 'park' },
+  { id: 'burke-museum', query: 'Burke Museum, Seattle', category: 'landmark' },
+  { id: 'suzzallo-library', query: 'Suzzallo Library, University of Washington, Seattle', category: 'landmark' },
+  { id: 'drumheller-fountain', query: 'Drumheller Fountain, University of Washington, Seattle', category: 'viewpoint' },
+  { id: 'green-lake-park', query: 'Green Lake Park, Seattle', category: 'park' },
+  { id: 'magnuson-park', query: 'Magnuson Park, Seattle', category: 'park' },
 ];
 
 function slugEscape(str) {
