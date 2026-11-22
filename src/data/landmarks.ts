@@ -433,4 +433,112 @@ export const landmarks: Landmark[] = [
     description:
       'Leafy city park along the shores of Lake Washington, with historic art deco homes, wetlands & art.',
   },
+    {
+    id: 'the-spheres',
+    name: 'The Spheres',
+    category: 'landmark',
+    coordinates: { lat: 47.615728, lng: -122.33951039999998 },
+    address: '2111 7th Ave, Seattle, WA 98121, USA',
+    description:
+      'Ultramodern office building with lush botanical gardens, open for public tours by appointment.',
+  },
+  {
+    id: 'lake-view-cemetery',
+    name: 'Lake View Cemetery',
+    category: 'historic',
+    coordinates: { lat: 47.63341450000001, lng: -122.31721730000001 },
+    address: '1554 15th Ave E, Seattle, WA 98102, USA',
+    description:
+      "Seattle's oldest cemetery, founded in 1872, best known as the final resting place of Bruce Lee and his son Brandon, buried side by side. Fans still leave flowers and tributes at both graves year-round.",
+  },
+  {
+    id: 'giant-shoe-museum',
+    name: 'World Famous Giant Shoe Museum',
+    category: 'landmark',
+    coordinates: { lat: 47.608627399999996, lng: -122.34073689999998 },
+    address: '1501 Pike Pl #424, Seattle, WA 98101, USA',
+    description:
+      "A tiny, coin-operated museum tucked into Pike Place Market's lower level, displaying real giant novelty shoes from the early 1900s through the 1950s — drop in a quarter and a window lights up to show one off.",
+  },
+  {
+    id: 'alki-point-lighthouse',
+    name: 'Alki Point Lighthouse',
+    category: 'landmark',
+    coordinates: { lat: 47.5762955, lng: -122.4205701 },
+    address: '3201 Alki Ave SW, Seattle, WA 98116, USA',
+    description:
+      '1913 lighthouse & active Coast Guard navigational aid, with free tours offered in summer.',
+  },
+  {
+    id: 'lincoln-park',
+    name: 'Lincoln Park',
+    category: 'park',
+    coordinates: { lat: 47.530570999999995, lng: -122.39599199999999 },
+    address: '8011 Fauntleroy Wy SW, Seattle, WA 98136, USA',
+    description:
+      'Rocky coastline adorned with playgrounds, BBQs, hiking & biking trails & a heated saltwater pool.',
+  },
+  {
+    id: 'seward-park',
+    name: 'Seward Park',
+    category: 'park',
+    coordinates: { lat: 47.551116199999996, lng: -122.2658656 },
+    address: 'Seward Park, Seattle, WA 98118, USA',
+    description:
+      "A peninsula park on Lake Washington holding one of the last old-growth forests left in Seattle, saved from logging in part thanks to landscape architect John Olmsted's early-1900s push to preserve it.",
+  },
+  {
+    id: 'carkeek-park',
+    name: 'Carkeek Park',
+    category: 'park',
+    coordinates: { lat: 47.7115955, lng: -122.36820049999999 },
+    address: '950 NW Carkeek Park Rd, Seattle, WA 98177, USA',
+    description:
+      '220 acres of forests, meadows, wetlands, creeks & beaches, with Puget Sound & mountain views.',
+  },
+  {
+    id: 'columbia-city-theater',
+    name: 'Columbia City Theater',
+    category: 'historic',
+    coordinates: { lat: 47.5573286, lng: -122.2846045 },
+    address: '4916 Rainier Ave S, Seattle, WA 98118, USA',
+    description:
+      'Built in 1917, this ex-vaudeville theater hosts acts from a range of genres.',
+  },
+  {
+    id: 'georgetown-trailer-park-mall',
+    name: 'Georgetown Trailer Park Mall',
+    category: 'landmark',
+    coordinates: { lat: 47.5504165, lng: -122.3184466 },
+    address: '5805 Airport Wy S, Seattle, WA 98108, USA',
+    description:
+      "A cluster of vintage trailers converted into small shops and a wedding chapel, parked under the flight path of Boeing Field — expect to hear planes roar overhead while you browse.",
+  },
+  {
+    id: 'uwajimaya',
+    name: 'Uwajimaya Seattle',
+    category: 'food',
+    coordinates: { lat: 47.5968404, lng: -122.3267453 },
+    address: '600 5th Ave S, Seattle, WA 98104, USA',
+    description:
+      'Perennial Asian grocery stocking meats, produce & prepared foods, plus gifts & home goods.',
+  },
+  {
+    id: 't-mobile-park',
+    name: 'T-Mobile Park',
+    category: 'landmark',
+    coordinates: { lat: 47.591471999999996, lng: -122.33258319999997 },
+    address: '1250 1st Ave S, Seattle, WA 98134, USA',
+    description:
+      "Seattle Mariners' ballpark with city skyline views, lots of stadium eats & a retractable roof.",
+  },
+  {
+    id: 'lumen-field',
+    name: 'Lumen Field',
+    category: 'landmark',
+    coordinates: { lat: 47.5951518, lng: -122.33163940000001 },
+    address: '800 Occidental Ave S, Seattle, WA 98134, USA',
+    description:
+      'Home of the Seahawks & Sounders, this 68,740-seat multipurpose stadium features skyline views.',
+  },
 ];
