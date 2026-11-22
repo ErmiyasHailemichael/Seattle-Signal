@@ -2,18 +2,18 @@ const apiKey = process.env.GOOGLE_PLACES_API_KEY;
 
 // Edit this list: id (slug, used in URLs/keys), query (what to search), category
 const entries = [
-  { id: 'woodland-park-zoo', query: 'Woodland Park Zoo, Seattle', category: 'landmark' },
-  { id: 'waiting-for-the-interurban', query: 'Waiting for the Interurban, Fremont, Seattle', category: 'landmark' },
-  { id: 'hat-n-boots', query: "Hat n' Boots, Georgetown, Seattle", category: 'landmark' },
-  { id: 'kurt-cobain-bench', query: 'Kurt Cobain Memorial Bench, Viretta Park, Seattle', category: 'landmark' },
-  { id: 'jimi-hendrix-statue', query: 'Jimi Hendrix Statue, Seattle', category: 'landmark' },
-  { id: 'dicks-drive-in', query: "Dick's Drive-In, 111 NE 45th St, Seattle", category: 'food' },
-  { id: 'hing-hay-park', query: 'Hing Hay Park, Seattle', category: 'park' },
-  { id: 'burke-museum', query: 'Burke Museum, Seattle', category: 'landmark' },
-  { id: 'suzzallo-library', query: 'Suzzallo Library, University of Washington, Seattle', category: 'landmark' },
-  { id: 'drumheller-fountain', query: 'Drumheller Fountain, University of Washington, Seattle', category: 'viewpoint' },
-  { id: 'green-lake-park', query: 'Green Lake Park, Seattle', category: 'park' },
-  { id: 'magnuson-park', query: 'Magnuson Park, Seattle', category: 'park' },
+  { id: 'the-spheres', query: 'The Spheres, Amazon, Seattle', category: 'landmark' },
+  { id: 'lake-view-cemetery', query: 'Lake View Cemetery, Seattle', category: 'historic' },
+  { id: 'giant-shoe-museum', query: 'Giant Shoe Museum, Pike Place Market, Seattle', category: 'landmark' },
+  { id: 'alki-point-lighthouse', query: 'Alki Point Lighthouse, Seattle', category: 'landmark' },
+  { id: 'lincoln-park', query: 'Lincoln Park, Seattle', category: 'park' },
+  { id: 'seward-park', query: 'Seward Park, Seattle', category: 'park' },
+  { id: 'carkeek-park', query: 'Carkeek Park, Seattle', category: 'park' },
+  { id: 'columbia-city-theater', query: 'Columbia City Theater, Seattle', category: 'historic' },
+  { id: 'georgetown-trailer-park-mall', query: 'Georgetown Trailer Park Mall, Seattle', category: 'landmark' },
+  { id: 'uwajimaya', query: 'Uwajimaya, Seattle', category: 'food' },
+  { id: 't-mobile-park', query: 'T-Mobile Park, Seattle', category: 'landmark' },
+  { id: 'lumen-field', query: 'Lumen Field, Seattle', category: 'landmark' },
 ];
 
 function slugEscape(str) {
