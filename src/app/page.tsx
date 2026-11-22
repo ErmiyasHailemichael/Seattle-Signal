@@ -79,6 +79,12 @@ export default function Home() {
 
         setSelected(null);
         setNearMeResults(sorted);
+        setViewState((v) => ({
+          ...v,
+          longitude: userCoords.lng,
+          latitude: userCoords.lat,
+          zoom: 13,
+        }));
       },
       () => {
         setLocationError('Location access denied — showing all spots instead.');
