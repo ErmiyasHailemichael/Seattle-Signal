@@ -2,18 +2,18 @@ const apiKey = process.env.GOOGLE_PLACES_API_KEY;
 
 // Edit this list: id (slug, used in URLs/keys), query (what to search), category
 const entries = [
-  { id: 'the-spheres', query: 'The Spheres, Amazon, Seattle', category: 'landmark' },
-  { id: 'lake-view-cemetery', query: 'Lake View Cemetery, Seattle', category: 'historic' },
-  { id: 'giant-shoe-museum', query: 'Giant Shoe Museum, Pike Place Market, Seattle', category: 'landmark' },
-  { id: 'alki-point-lighthouse', query: 'Alki Point Lighthouse, Seattle', category: 'landmark' },
-  { id: 'lincoln-park', query: 'Lincoln Park, Seattle', category: 'park' },
-  { id: 'seward-park', query: 'Seward Park, Seattle', category: 'park' },
-  { id: 'carkeek-park', query: 'Carkeek Park, Seattle', category: 'park' },
-  { id: 'columbia-city-theater', query: 'Columbia City Theater, Seattle', category: 'historic' },
-  { id: 'georgetown-trailer-park-mall', query: 'Georgetown Trailer Park Mall, Seattle', category: 'landmark' },
-  { id: 'uwajimaya', query: 'Uwajimaya, Seattle', category: 'food' },
-  { id: 't-mobile-park', query: 'T-Mobile Park, Seattle', category: 'landmark' },
-  { id: 'lumen-field', query: 'Lumen Field, Seattle', category: 'landmark' },
+  { id: 'nordic-museum', query: 'Nordic Museum, Seattle', category: 'landmark' },
+  { id: 'wing-luke-museum', query: 'Wing Luke Museum, Seattle', category: 'historic' },
+  { id: 'panama-hotel', query: 'Panama Hotel, Seattle', category: 'historic' },
+  { id: 'westlake-park', query: 'Westlake Park, Seattle', category: 'park' },
+  { id: 'ravenna-park', query: 'Ravenna Park, Seattle', category: 'park' },
+  { id: 'matthews-beach-park', query: 'Matthews Beach Park, Seattle', category: 'park' },
+  { id: 'jefferson-park', query: 'Jefferson Park, Beacon Hill, Seattle', category: 'park' },
+  { id: 'log-house-museum', query: 'Log House Museum, Seattle', category: 'historic' },
+  { id: 'duwamish-head', query: 'Duwamish Head, Seattle', category: 'viewpoint' },
+  { id: 'madison-park-beach', query: 'Madison Park Beach, Seattle', category: 'park' },
+  { id: 'leschi-park', query: 'Leschi Park, Seattle', category: 'park' },
+  { id: 'montlake-cut', query: 'Montlake Cut, Seattle', category: 'landmark' },
 ];
 
 function slugEscape(str) {

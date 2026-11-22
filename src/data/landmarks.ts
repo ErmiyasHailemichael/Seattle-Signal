@@ -541,4 +541,112 @@ export const landmarks: Landmark[] = [
     description:
       'Home of the Seahawks & Sounders, this 68,740-seat multipurpose stadium features skyline views.',
   },
+    {
+    id: 'nordic-museum',
+    name: 'National Nordic Museum',
+    category: 'landmark',
+    coordinates: { lat: 47.6684157, lng: -122.39250899999999 },
+    address: '2655 NW Market St, Seattle, WA 98107, USA',
+    description:
+      'Neighborhood museum covering Scandinavian immigration, culture, art & history.',
+  },
+  {
+    id: 'wing-luke-museum',
+    name: 'Wing Luke Museum',
+    category: 'historic',
+    coordinates: { lat: 47.598220999999995, lng: -122.322914 },
+    address: '719 S King St, Seattle, WA 98104, USA',
+    description:
+      'An exploration of the way Asian cultures have shaped the settlement & development of the Northwest.',
+  },
+  {
+    id: 'panama-hotel',
+    name: 'Panama Hotel and Tea House',
+    category: 'historic',
+    coordinates: { lat: 47.5998923, lng: -122.325902 },
+    address: '605 South Main St, Seattle, WA 98104, USA',
+    description:
+      "A 1910 hotel in the Chinatown-International District, designed by Seattle's first Japanese American architect. When Japanese American families were forced into incarceration camps in 1942, the owner let them store their belongings in the basement — many never returned to claim them, and those possessions remain there today. It's also home to one of the last intact traditional Japanese bathhouses (sento) in the U.S.",
+  },
+  {
+    id: 'westlake-park',
+    name: 'Westlake Park',
+    category: 'park',
+    coordinates: { lat: 47.6109571, lng: -122.33701459999999 },
+    address: '401 Pine St, Seattle, WA 98101, USA',
+    description:
+      'Centrally located shopping district sitting spot & town square with a play area & fountain.',
+  },
+  {
+    id: 'ravenna-park',
+    name: 'Ravenna Park',
+    category: 'park',
+    coordinates: { lat: 47.668731, lng: -122.3037237 },
+    address: '5520 Ravenna Ave NE, Seattle, WA 98105, USA',
+    description:
+      'Wooded park with features such as tennis courts, hiking trails, athletic fields & a playground.',
+  },
+  {
+    id: 'matthews-beach-park',
+    name: 'Matthews Beach Park',
+    category: 'park',
+    coordinates: { lat: 47.696507999999994, lng: -122.27377619999999 },
+    address: '5100 NE 93rd St, Seattle, WA 98115, USA',
+    description:
+      'Lakefront beach park with lifeguards, a boat launch & facilities, plus hiking paths.',
+  },
+  {
+    id: 'jefferson-park',
+    name: 'Jefferson Park',
+    category: 'park',
+    coordinates: { lat: 47.5687958, lng: -122.3103102 },
+    address: '3801 Beacon Ave S, Seattle, WA 98108, USA',
+    description:
+      'The sprawling site with river & mountain views includes a golf course, community center & skatepark.',
+  },
+  {
+    id: 'log-house-museum',
+    name: 'Log House Museum',
+    category: 'historic',
+    coordinates: { lat: 47.577581699999996, lng: -122.4109352 },
+    address: '3003 61st Ave SW, Seattle, WA 98116, USA',
+    description:
+      'Built in the early 1900s, this log house now has collections & exhibits about the local area.',
+  },
+  {
+    id: 'duwamish-head',
+    name: 'Duwamish Head',
+    category: 'viewpoint',
+    coordinates: { lat: 47.595579099999995, lng: -122.38683700000001 },
+    address: 'Duwamish Head, Seattle, WA 98116, USA',
+    description:
+      "The northernmost point of West Seattle, a traditional Duwamish fishing site long before it became a bustling beach resort in the early 1900s once streetcars connected it to downtown. Now marked by Anchor Park's 5,000-pound anchor, right where Alki Beach begins.",
+  },
+  {
+    id: 'madison-park-beach',
+    name: 'Madison Park Beach',
+    category: 'park',
+    coordinates: { lat: 47.6355817, lng: -122.27671629999999 },
+    address: '1900 43rd Ave E, Seattle, WA 98112, USA',
+    description:
+      "Seasonal swimming beach offers sunbathing, swimming raft, diving boards & children's play area.",
+  },
+  {
+    id: 'leschi-park',
+    name: 'Leschi Park',
+    category: 'park',
+    coordinates: { lat: 47.600774699999995, lng: -122.28806849999998 },
+    address: '201 Lakeside Ave S, Seattle, WA 98122, USA',
+    description:
+      'Historic, hilly park offering a boat launch, tennis court & facilities plus exotic plantings.',
+  },
+  {
+    id: 'montlake-cut',
+    name: 'Montlake Cut',
+    category: 'landmark',
+    coordinates: { lat: 47.6475031, lng: -122.3051365 },
+    address: 'Montlake Cut, Seattle, WA, USA',
+    description:
+      "A half-mile channel connecting Lake Union to Lake Washington, dug by hand starting in 1909 and completed in 1916 — lowering Lake Washington's level by 9 feet in the process. It's crossed by the historic Montlake Bridge and is the site of Seattle's Opening Day boat parade each May.",
+  },
 ];
